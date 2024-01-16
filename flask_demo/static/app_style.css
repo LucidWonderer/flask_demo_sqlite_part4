@@ -1,0 +1,66 @@
+/*  CSS for Flask Demo App
+    Clinton Garwood 2023   */
+
+body {
+  background-color: #f5f5f5;
+}
+
+.main_content {
+  padding: 25px;
+  margin: 25px 50px 0 50px;
+  box-shadow: 4px 3px darkgray;
+  background-color: #FFF;
+  width: 75%;
+  align-content: center;
+}
+article{
+    font-size: larger;
+}
+
+footer {
+  margin: 50px;
+}
+.user_text_form {
+  margin-left: 150px;
+}
+
+.data_from_function {
+    margin: 25px;
+    border: 3px solid #1936ee;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+/* Nav Bar from w3 Schools
+https://www.w3schools.com/CSS/tryit.asp?filename=trycss_navbar_horizontal_gray
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}

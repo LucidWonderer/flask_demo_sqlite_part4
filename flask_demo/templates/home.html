@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App Home</title>
+    {% include "bootstrap.html" %}
+    <link rel="stylesheet" href="../static/app_style.css">
+</head>
+<body>
+{% include "nav.html" %}
+<br>
+<div class="main_content">
+<h1>App Home </h1>
+<main id="main">
+<hr>
+<h2>Demo: Data Transfer</h2>
+
+    <p>Data can be carried from functions to pages:</p>
+    <div class="data_from_function">
+        <article>
+            {{ app_data }} </article>
+        <hr>
+        <a href="/form" class="btn btn-outline-primary btn-lg">Web Form</a>
+        <a href="/data" class="btn btn-outline-primary btn-lg">Web Data</a>
+        </div> <!-- end feedback div -->
+
+</main>
+</div><!-- end div main_content -->
+</body>
+</html>
